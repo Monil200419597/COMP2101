@@ -37,3 +37,4 @@ die3=$(( ($die1 + $die2) ))
 die4=$(( ($die3 /2) ))
 # display the results of what was rolled and the result of the arithmentic.
 echo "Rolled $die4, $die3"
+echo "Rolled $die4, Arithmetic $die3"
