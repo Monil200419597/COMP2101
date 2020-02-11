@@ -48,4 +48,5 @@ statement="Welcome to planet $myhostname, saturday fever $myname"
 else
 statement="Welcome to planet $myhostname, sunday fever $myname"
 fi
-$(cowsay) "$statement It is $time on $weekday".
+export="$statement It is $time on $weekday".
+cowsay $export
